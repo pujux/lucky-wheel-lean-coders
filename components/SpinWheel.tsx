@@ -13,7 +13,7 @@ const prizes = {
   "❌": { name: "Kein Gewinn", color: "#454751" },
 };
 
-const segments: (keyof typeof prizes)[] = ["🥤", "🍬", "❌", "🧦", "🥤", "🍬", "❌", "🧦", "🥤", "🍬", "❌", "🧦"];
+const segments: (keyof typeof prizes)[] = ["🥤", "🍬", "❌", "🥤", "🍬", "❌", "🧦", "🥤", "🍬", "❌"];
 
 const radToDeg = (rad: number) => rad * (180 / Math.PI);
 
