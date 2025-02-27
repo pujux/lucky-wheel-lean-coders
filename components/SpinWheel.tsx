@@ -8,13 +8,12 @@ import LeanCodersQr from "./lean-coders-qr";
 
 const prizes = {
   "🧦": { name: "Socken", color: "#FF9103" },
-  "🎁": { name: "Goodie Bag", color: "#80EB52" },
   "🥤": { name: "Red Bull", color: "#F4343E" },
   "🍬": { name: "Skittles", color: "#46C3EF" },
   "❌": { name: "Kein Gewinn", color: "#454751" },
 };
 
-const segments: (keyof typeof prizes)[] = ["🥤", "🍬", "🎁", "❌", "🧦", "🥤", "🍬", "🎁", "❌", "🧦"];
+const segments: (keyof typeof prizes)[] = ["🥤", "🍬", "❌", "🧦", "🥤", "🍬", "❌", "🧦"];
 
 const radToDeg = (rad: number) => rad * (180 / Math.PI);
 
