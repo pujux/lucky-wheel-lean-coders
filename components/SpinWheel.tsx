@@ -7,13 +7,12 @@ import confetti from "canvas-confetti";
 import LeanCodersQr from "./lean-coders-qr";
 
 const prizes = {
-  "🧦": { name: "Socken", color: "#FF9103" },
   "🥤": { name: "Red Bull", color: "#F4343E" },
   "🍬": { name: "Skittles", color: "#46C3EF" },
   "❌": { name: "Kein Gewinn", color: "#454751" },
 };
 
-const segments: (keyof typeof prizes)[] = ["🥤", "🍬", "❌", "🥤", "🍬", "❌", "🧦", "🥤", "🍬", "❌"];
+const segments: (keyof typeof prizes)[] = ["🥤", "🍬", "❌", "🍬", "❌", "🥤", "🍬", "❌", "🍬", "❌", "🍬"];
 
 const radToDeg = (rad: number) => rad * (180 / Math.PI);
 
